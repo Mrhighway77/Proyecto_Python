@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-#instalar bs4 con pip installa beautifulsoup4
+#instalar bs4 con pip install beautifulsoup4
 
 url = 'https://www.bcentral.cl/inicio'                                           #url de bcentral
 html = requests.get(url).content                                                 #Llamar url con método GET
